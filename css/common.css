@@ -1,0 +1,87 @@
+:root {
+  --light-purple: hsl(250, 69%, 61%);
+  --dark-purple: hsl(250, 57%, 53%);
+  --input-color: hsl(250, 8%, 45%);
+  --input-background: hsl(250, 70%, 96%);
+  --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  --rancho: "Rancho", cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section {
+  padding: 100px 0;
+  overflow-x: hidden;
+}
+
+.title {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding-bottom: 50px;
+  }
+
+  .title {
+    margin-bottom: 50px;
+  }
+}
+
+.title h1 {
+  font: bold 40px var(--rancho);
+  letter-spacing: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.title h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -20%;
+  transform: translate(-50%, -50%);
+  background: var(--light-purple);
+  width: 60%;
+  height: 4px;
+}
+
+.color {
+  color: var(--light-purple);
+}
+
+@media (min-width: 992px) and (max-width: 1140px) {
+  .container {
+    max-width: 951px;
+  }
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--light-purple);
+  color: white !important;
+  padding: 16px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--dark-purple);
+}
