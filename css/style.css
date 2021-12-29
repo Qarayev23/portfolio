@@ -221,18 +221,18 @@
 }
 
 .html5::after,
-.css3::after {
+.css3::after,
+.bootstrap::after {
   content: "100%";
 }
 
-.js::after,
-.bootstrap::after {
-  content: "80%";
+.js::after {
+  content: "90%";
 }
 
 .react::after,
 .jquery::after {
-  content: "50%";
+  content: "60%";
 }
 
 @keyframes showText {
@@ -279,12 +279,12 @@
   width: 100%;
 }
 
-.p80 {
-  width: 80%;
+.p90 {
+  width: 90%;
 }
 
-.p50 {
-  width: 50%;
+.p60 {
+  width: 60%;
 }
 
 .show2 {
