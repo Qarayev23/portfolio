@@ -227,12 +227,12 @@
 }
 
 .js::after {
-  content: "90%";
+  content: "100%";
 }
 
 .react::after,
 .jquery::after {
-  content: "60%";
+  content: "70%";
 }
 
 @keyframes showText {
@@ -285,6 +285,10 @@
 
 .p60 {
   width: 60%;
+}
+
+.p70 {
+  width: 70%;
 }
 
 .show2 {
