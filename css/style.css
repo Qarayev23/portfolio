@@ -184,7 +184,7 @@
   transition: all 0.9s ease-out;
 }
 
-.animation-bar::before {
+/* .animation-bar::before {
   position: absolute;
   content: "";
   top: -12px;
@@ -197,9 +197,9 @@
   border-top-color: #f0f0f0;
   opacity: 0;
   animation: showText 0.5s 1.5s linear forwards;
-}
+} */
 
-.animation-bar::after {
+/* .animation-bar::after {
   position: absolute;
   top: -32px;
   right: 0;
@@ -210,7 +210,7 @@
   border-radius: 3px;
   opacity: 0;
   animation: showText 0.5s 1.5s linear forwards;
-}
+} */
 
 .label {
   position: absolute;
@@ -220,7 +220,7 @@
   margin-left: 5px;
 }
 
-.html5::after,
+/* .html5::after,
 .css3::after,
 .bootstrap::after {
   content: "100%";
@@ -233,7 +233,7 @@
 .react::after,
 .jquery::after {
   content: "70%";
-}
+} */
 
 @keyframes showText {
   100% {
