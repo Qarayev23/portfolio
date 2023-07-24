@@ -44,6 +44,7 @@
   .navbar-nav {
     align-items: center;
   }
+
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 10px 0;
   }
@@ -273,6 +274,10 @@
 
 .next {
   background-color: #000000;
+}
+
+.typescript {
+  background-color: #2d79c7;
 }
 
 .jquery {
